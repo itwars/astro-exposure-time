@@ -14,6 +14,15 @@ For details please see:
 - [The 500 Rule](https://astrobackyard.com/the-500-rule/)
 - [Règle NPF – calcul du temps de pose sans filé d’étoiles](https://sahavre.fr/wp/regle-npf-rule/)
 
-# Setup
+# Setup and running
 
 - Add your own technical specification in config.yml file
+- go run main.go
+- As a result : 
+
+```
+NPF Simple    :  temps de pause de 50.6 sec.
+NPF Complet   :  temps de pause de 23.6 sec.
+4 Crops       :  temps de pause de 46.7 sec.
+Règle des 500 :  temps de pause de 60.5 sec.
+```
