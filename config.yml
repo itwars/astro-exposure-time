@@ -1,0 +1,16 @@
+# Aperture : sans unité, l’ouverture de l’objectif
+# PixelPitch : en µm, la taille d’un photo-site de l’appareil photo
+# FocalLength : en mm, la focale de l’objectif
+# δ : la déclinaison minimale du champ photographié
+# Accuracy : un nombre entre 1 et 3 donnant la précision du temps de pose (1 étoile en point, 3 trainés d'étoiles)
+# CropFactor : le facteur de crop ou de focale équivalente du capteur (1 pour plein format, ~1.6 pour APS-C Canon, ~1.5 pour les autres APS-C, 2 pour les m4/3…).
+
+# Parameter for ArduCam HawkEye 64MP (for now I don't know PixelPitch nor CropFactor)
+
+parameters:
+  Aperture: 1.8
+  FocalLength: 5.1
+  Accuracy: 1
+  δ: 0
+  PixelPitch: 6.51
+  CropFactor: 1.62
